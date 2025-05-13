@@ -11,7 +11,7 @@ const search1= async (city)=>{
         return;
     }
     try {
-        const a=`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${VITE_WEATHER_ID}`
+        const a=`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_WEATHER_ID}`
         const res=await fetch(a)
         let response=await res.json()
         if(!res.ok){
