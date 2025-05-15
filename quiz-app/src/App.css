@@ -1,0 +1,44 @@
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button button{
+  border-radius: 15px;
+  padding:15px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  
+
+}
+.button button:hover{
+  font-size: 15px;
+  background-color: #2563eb;
+}
+body{
+  background-color: #f0f4f8;
+}
+
+.button button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.score{
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  flex-direction: column;
+
+}
+.key{
+  padding: 15px;
+  font-size: 15px;
+  background-color: #fe9292;
+  border-radius: 15px;
+  cursor: pointer;
+}
