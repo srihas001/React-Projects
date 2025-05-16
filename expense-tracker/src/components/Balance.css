@@ -1,0 +1,11 @@
+.balance{
+    font-family: sans-serif;
+    line-height: 0.5;
+    font-weight: 500;
+    font-size: 15px;
+}
+.money{
+    line-height: 0.5;
+    font-weight: 600;
+    font-size: 28px;
+}

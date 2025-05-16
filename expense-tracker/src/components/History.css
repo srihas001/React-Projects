@@ -1,0 +1,72 @@
+.cardlist{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    overflow-y: auto;
+    max-height: 115px;
+   
+   
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px;
+    padding-right: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid transparent;
+   
+}
+.border{
+    background-color: #aeaeae;
+    height: 1px;
+    width: 100%;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.testing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrap{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin-left: 10px;
+   
+
+}
+.delbtn{
+    background-color: #ff3131;
+    padding:2px 8px;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+.delbtn:hover{
+    opacity: 1;
+}
+.green,
+.red {
+  align-self: stretch;
+  margin-right: 6px;
+  width: 4px;
+  
+
+}
+.red-border{
+    border-left-color: #ff3131;
+}
+.green-border{
+    border-left-color: rgb(8, 155, 8);
+}
