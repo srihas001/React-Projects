@@ -16,7 +16,7 @@ const History = ({transactions, delTranc}) => {
         <button onClick={()=>{delTranc(tx.id)}} className='delbtn'>X</button>
         <div className='wrap'>
         <div className='cardname'>{tx.text}</div>
-        <div className="price">${tx.amount}</div>
+        <div className="price">{tx.amount < 0 ? '-' : '+'}${Math.abs(tx.amount)}</div>
         </div>
         </div>
 
